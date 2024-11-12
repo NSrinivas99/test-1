@@ -1,0 +1,42 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Model Evaluation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            border-radius: 5px;
+            max-width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Model Evaluation</h1>
+        <p><strong>Mean Squared Error (MSE):</strong> <span id="mse"></span></p>
+        <p><strong>R² Score:</strong> <span id="r2"></span></p>
+    </div>
+    <script>
+        async function fetchData() {
+            const response = await fetch('/metrics');
+            const data = await response.json();
+            document.getElementById('mse').textContent = data.mse.toFixed(2);
+            document.getElementById('r2').textContent = data.r2.toFixed(2);
+        }
+        fetchData();
+    </script>
+</body>
+</html>
