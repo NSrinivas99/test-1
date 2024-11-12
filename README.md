@@ -8,10 +8,9 @@ A Regression type prediction model using *Linear Regression* algorithm. It uses 
 ### Building Files
 1) app.py: which has regression model code
 2) requirements.txt: which has the required library names
-3) Liver Patient Dataset (LPD)_train.csv: .csv dataset which includes the data regarding counsumer forcast prediction
-4) Dockerfile: which contains the commands to be run in docker
-5) selenium_test.py: which contains the selenium code for automated testing
-6) templates/index.html: in contains html (computer language) which is used to display the contents from app.py
+3) Dockerfile: which contains the commands to be run in docker
+4) selenium_test.py: which contains the selenium code for automated testing
+5) templates/index.html: in contains html (computer language) which is used to display the contents from app.py
 
 ### Git & Other Commands used in Command Prompt
 1) mkdir <file_name> to create the folder
@@ -57,13 +56,4 @@ A Regression type prediction model using *Linear Regression* algorithm. It uses 
 2) created selenium_test.py file which contains the selenium code for autotesting app.py
 
 #### Output
-  ##### Flask app (Command Prompt)
-  ![test 0 1](https://github.com/user-attachments/assets/75b060d7-06f3-4a39-9fda-781939519d69)
-
-
-  ##### Flask app (Web Browser)
-  ![test 0 2](https://github.com/user-attachments/assets/34f6ec18-5520-412f-a77d-380d7731803a)
-
-
-  ##### Selenium 
   ![image](https://github.com/user-attachments/assets/f3d13b76-2dcd-420d-82c2-2546184d0f04)
