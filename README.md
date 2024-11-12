@@ -49,7 +49,7 @@ A Regression type prediction model using *Linear Regression* algorithm. It uses 
 
   
   ##### Docker Hub
-  ![test 1 2](https://github.com/user-attachments/assets/3335af03-867c-48cf-a58e-c70fa48d84e6)
+  ![image](https://github.com/user-attachments/assets/9427cd59-54e8-49cc-9391-ef5dc0967dd7)
 
 
 ### Selenium
@@ -66,4 +66,4 @@ A Regression type prediction model using *Linear Regression* algorithm. It uses 
 
 
   ##### Selenium 
-  ![test 1](https://github.com/user-attachments/assets/068a30f5-98cc-48a7-9e57-b081b4573deb)
+  ![image](https://github.com/user-attachments/assets/f3d13b76-2dcd-420d-82c2-2546184d0f04)
